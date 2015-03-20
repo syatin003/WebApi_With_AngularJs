@@ -3,16 +3,16 @@
 }
     <div>
         <div>
-            <table>
+            <table cellspacing="5" cellpadding="5"border="1" style="border-bottom-color:burlywood" >
                 <tr>
                     <td>Id</td>
                     <td>Name</td>
-                    <td>Email</td>
+                    <td align="center">Email</td>
                     <td>Age</td>
                 </tr>
                 <tr ng-repeat="y in names">
                     <td>{{y.Id}}</td>
-                    <td>{{y.Name}}</td>
+                    <td>{{y.Name | uppercase}}</td>
                     <td>{{y.Email}}</td>
                     <td>{{y.Age}}</td>
                 </tr>

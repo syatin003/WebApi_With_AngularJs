@@ -1,3 +1,10 @@
-﻿ <data-ng-view>
+﻿ <div>
+     <data-ng-view>     @*ng-view is the directive that angular uses as a container to switch between views. 
+                            Let’s start by making an empty ng-view tag in our app*@
 
  </data-ng-view>
+    </div>                      
+
+@*ngView is a directive that complements(complete or making perfect) the $route service by including the rendered template of the current route into the main layout (index.html) file.
+     Every time the current route changes, the included view changes with it according to the configuration of the $route service.
+     Requires the ngRoute module to be installed.*@
