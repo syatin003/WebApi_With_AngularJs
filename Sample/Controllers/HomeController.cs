@@ -20,6 +20,13 @@ namespace Sample.Controllers
 
             return View();
         }
+
+        public ActionResult About()
+        {
+            ViewBag.Title = "Contact";
+
+            return View();
+        }
        
     }
 }
